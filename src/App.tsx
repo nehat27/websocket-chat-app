@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
+import * as React from 'react';
+const { useState, useEffect, useRef } = React;
 import { io } from 'socket.io-client';
 import type { Socket } from 'socket.io-client';
 import './App.css';
