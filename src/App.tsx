@@ -35,7 +35,7 @@ function App() {
   useEffect(() => {
     try {
       console.log('Connecting to WebSocket server...');
-      const newSocket = io('http://192.168.243.242:3001', {
+      const newSocket = io('https://chat-app-back-new.onrender.com', {
         reconnectionAttempts: 5,
         reconnectionDelay: 1000,
         transports: ['websocket', 'polling'],

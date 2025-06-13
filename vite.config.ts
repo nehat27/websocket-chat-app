@@ -9,7 +9,7 @@ export default defineConfig({
     port: 5173,       // Use the specific port
     proxy: {
       '/socket.io': {
-        target: 'http://192.168.243.242:3001',
+        target: 'https://chat-app-back-new.onrender.com',
         changeOrigin: true,
         ws: true
       }
